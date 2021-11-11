@@ -19,25 +19,6 @@
     - [Caveat Empor](#caveat-empor)
     - [Future enhancement / work](#future-enhancement--work)
 
-<!-- /TOC -->region load balancing](#azure-route-server---anycast-multi-region-load-balancing)
-    - [Introduction](#introduction)
-    - [Overview](#overview)
-        - [Configuration](#configuration)
-        - [North Europe - primary region](#north-europe---primary-region)
-            - [Pre-req (not covered)](#pre-req-not-covered)
-            - [Network Virtual Appliance](#network-virtual-appliance)
-            - [Verify](#verify)
-        - [West Europe - secondary region](#west-europe---secondary-region)
-            - [Pre-req (not covered)](#pre-req-not-covered)
-            - [Network Virtual Appliance](#network-virtual-appliance)
-            - [Verify](#verify)
-    - [Resilience demonstration](#resilience-demonstration)
-        - [Baseline](#baseline)
-        - [Primary region failure](#primary-region-failure)
-        - [Primary region recovery](#primary-region-recovery)
-    - [Caveat Empor](#caveat-empor)
-    - [Future enhancement / work](#future-enhancement--work)
-
 ## Introduction
 
 ![](images/2021-11-11-15-14-33.png)
