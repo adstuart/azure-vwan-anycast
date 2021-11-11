@@ -31,7 +31,7 @@ If the source, remote endpoints (clients, APIs, etc), are accessing the applicat
 
 However, exploring the ability to provide a network load balancing strategy across regions for endpoints accessing an application from a **private network**, is also something that gets raised from time-to-time.  I summarise the available solutions options in this wider document [here](https://github.com/adstuart/azure-crossregion-private-lb)
 
-**This article is focused on a new pattern that is possible using [_BGP peering with Virtual WAN hub_ feature](https://docs.microsoft.com/en-us/azure/virtual-wan/create-bgp-peering-hub-portal) (currently public preview) and BGP integration with reverse proxy NVAs. In the same way that Azure Front door uses Anycast for resilience over the public Internet, we are able to utilise _BGP peering with Azure Virtual WAN hub_ to build our own custom Anycast solution with reachability across our private network**
+**This article is focused on a new pattern that is possible using [_BGP peering with Virtual WAN hub_ feature](https://docs.microsoft.com/en-us/azure/virtual-wan/create-bgp-peering-hub-portal) (:warning: currently public preview) and BGP integration with reverse proxy NVAs. In the same way that Azure Front door uses Anycast for resilience over the public Internet, we are able to utilise _BGP peering with Azure Virtual WAN hub_ to build our own custom Anycast solution with reachability across our private network**
 
 *This approach offers advantages over traditional DNS based GSLB in respect to performance (no DNS TTL), complexity (no need to make NVA authoritative for DNS ) and scalability (add additional Azure Regions and utilise standard BGP route manipulation to steer traffic to nearest origin)*
 
