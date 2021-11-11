@@ -1,8 +1,25 @@
 # Azure Virtual WAN BGP Peering (_preview_)- Anycast multi-region load balancing
 
-<!-- TOC -->
+- [Azure Virtual WAN BGP Peering (preview)- Anycast multi-region load balancing](#azure-virtual-wan-bgp-peering-preview--anycast-multi-region-load-balancing)
+    - [Introduction](#introduction)
+    - [Overview](#overview)
+        - [Configuration](#configuration)
+        - [North Europe - primary region](#north-europe---primary-region)
+            - [Pre-req (not covered)](#pre-req-not-covered)
+            - [Network Virtual Appliance](#network-virtual-appliance)
+            - [Verify](#verify)
+        - [West Europe - secondary region](#west-europe---secondary-region)
+            - [Pre-req (not covered)](#pre-req-not-covered)
+            - [Network Virtual Appliance](#network-virtual-appliance)
+            - [Verify](#verify)
+    - [Resilience demonstration](#resilience-demonstration)
+        - [Baseline](#baseline)
+        - [Primary region failure](#primary-region-failure)
+        - [Primary region recovery](#primary-region-recovery)
+    - [Caveat Empor](#caveat-empor)
+    - [Future enhancement / work](#future-enhancement--work)
 
-- [Azure Route Server - Anycast multi-region load balancing](#azure-route-server---anycast-multi-region-load-balancing)
+<!-- /TOC -->region load balancing](#azure-route-server---anycast-multi-region-load-balancing)
     - [Introduction](#introduction)
     - [Overview](#overview)
         - [Configuration](#configuration)
